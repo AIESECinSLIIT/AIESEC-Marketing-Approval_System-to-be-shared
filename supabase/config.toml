@@ -1,0 +1,11 @@
+[functions.manage-users]
+# Authentication is enforced inside the function using auth.getUser() and club_me().
+verify_jwt = false
+
+[functions.send-push]
+# The database webhook authenticates using a private rotating secret.
+verify_jwt = false
+
+[functions.review-submission]
+# Validates the session and reauthenticates supreme-admin overrides internally.
+verify_jwt = false

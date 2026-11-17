@@ -1,0 +1,17 @@
+node_modules/
+dist/
+data/
+.env
+.env.*
+!.env.example
+.netlify/
+.supabase/
+supabase/.temp/
+admin-credentials.txt
+*.zip
+preview*.png
+mobile-preview*.png
+*.log
+.DS_Store
+playwright-report/
+test-results/
